@@ -15,4 +15,8 @@ $(document).ready(function(){
     alarmDisplay.alarmTime();
       $('#solution').text("You want to wake up at " + alarmSet + " .");
   });
+
+  if (alarmSet === Time) {
+    alert('Wake Up!');
+  }
 });
